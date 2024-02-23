@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.2/dist/iconify-icon.min.css" rel="stylesheet">
+    <link rel="icon" href="/img/icono.png">
+    <title>Jef Code</title>
+    <link rel="stylesheet" href="css/estilo.css" />
+  </head>
+  <body>
+    <div class="contenedor">
+      <header>
+        <div class="logo">
+          <a href="#">
+            <img src="img/icon/Jeflogo.svg" alt="" />
+          </a>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li>
+              <a href="#inicio" class="enlace" onclick="seleccionar()"
+                >INICIO</a
+              >
+            </li>
+            <li>
+              <a href="#sobremi" class="enlace" onclick="seleccionar()"
+                >SOBRE MI</a
+              >
+            </li>
+            <li>
+              <a href="#skills" class="enlace" onclick="seleccionar()"
+                >SKILLS</a
+              >
+            </li>
+            <li>
+              <a href="#curriculum" class="enlace" onclick="seleccionar()"
+                >CURRICULUM</a
+              >
+            </li>
+            <li>
+              <a href="#portfolio" class="enlace" onclick="seleccionar()"
+                >PORTFOLIO</a
+              >
+            </li>
+            <li>
+              <a href="#contacto" class="enlace" onclick="seleccionar()"
+                >CONTACTO</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
+    </div>
+    <section id="inicio" class="inicio">
+      <div class="bgAnimation" id="bgAnimation">
+        <div class="backgroundAmim"></div>
+      </div>
+      <div class="contenido-banner">
+        <div class="contenedor-img">
+          <img src="img/Jimy.png" alt="" />
+        </div>
+        <h1>JIMY ALVARADO</h1>
+        <h2>Tecnólogo en Desarrollo de Software <br> TIC</h2>
+        <div class="redes">
+          <a href="https://twitter.com/jimyjeferson" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://github.com/creaci" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="https://api.whatsapp.com/send?phone=060292097" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://www.linkedin.com/in/jimy-alvarado-8aa139190/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://www.facebook.com/jimy.alvarado.50" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+      </div>  
+      <div class="slider-logo">
+        <div class="slide-track">
+          <div class="sl">
+            <iconify-icon icon="logos:android-icon"width="70" height="70"></iconify-icon>
+          </div>
+          <div class="sl">
+            <iconify-icon icon="skill-icons:wordpress"width="70" height="70"></iconify-icon>
+          </div>
+          <div class="sl">
+            <iconify-icon icon="skill-icons:html"width="70" height="70"></iconify-icon>
+          </div>
+          <div class="sl">
+            <iconify-icon icon="logos:raspberry-pi"width="70" height="70"></iconify-icon>
+          </div>
+          <div class="sl">
+            <iconify-icon icon="devicon:gimp"wwidth="70" height="70"></iconify-icon>
+          </div>
+          <div class="sl">
+            <iconify-icon icon="devicon:linux"width="70" height="70"></iconify-icon>
+          </div>
+          <div class="sl">
+            <iconify-icon icon="devicon:php"width="70" height="70"></iconify-icon>
+          </div>
+          <div class="sl">
+            <iconify-icon icon="logos:apache"width="70" height="70"></iconify-icon>
+          </div>
+          <div class="sl">
+            <iconify-icon icon="devicon:canva"width="70" height="70"></iconify-icon>
+          </div>
+          <div class="sl">
+            <iconify-icon icon="devicon:css3"width="70" height="70"></iconify-icon>
+          </div>
+          <div class="sl">
+            <iconify-icon icon="devicon:firebase"width="70" height="70"></iconify-icon>
+          </div>
+          <div class="sl">
+            <iconify-icon icon="devicon:vscode"width="70" height="70"></iconify-icon>
+          </div>
+          <div class="sl">
+            <iconify-icon icon="logos:ubuntu"width="70" height="70"></iconify-icon>
+          </div>
+          <div class="sl">
+            <iconify-icon icon="logos:javascript"width="70" height="70"></iconify-icon>
+          </div>
+          <div class="sl">
+            <iconify-icon icon="logos:nodejs-icon"width="70" height="70"></iconify-icon>
+          </div>
+          <div class="sl">
+            <iconify-icon icon="logos:flutter"width="70" height="70"></iconify-icon>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="sobremi" class="sobremi">
+      <div class="contenido-seccion">
+        <h2>Sobre Mí</h2>
+        <p align="justify">
+          <span>Hola, soy Jimy Alvarado.</span> Tecnólogo en Desarrollo de
+          Software y Bachiller Técnico en Informática. Apasionado por la
+          tecnología y el desarrollo de software, estoy entusiasmado por aplicar
+          mis conocimientos, habilidades y contribuir al crecimiento de una
+          organización. Además, Tengo una amplia gama de habilidades y
+          capacidades que considero fundamentales para mi perfil profesional. Mi
+          objetivo es seguir creciendo profesionalmente y desarrollar soluciones
+          innovadoras que generen un impacto positivo en la sociedad.
+        </p>
+
+        <div class="fila">
+          <div class="col">
+            <h3>Datos Personales</h3>
+            <ul>
+              <li>
+                <strong>DNI</strong>
+                1500926660
+              </li>
+              <li>
+                <strong>Teléfono</strong>
+                +593989804923
+              </li>
+              <li>
+                <strong>Email</strong>
+                jimyalvarado.18@gmail.com
+              </li>
+              <li>
+                <strong>Website</strong>
+                www.example.com
+              </li>
+              <li>
+                <strong>Dirección</strong>
+                C.Teniente Hugo Ortíz (San Jacinto)
+              </li>
+              <li>
+                <strong>Tipo de Sangre</strong>
+                <span>O+</span>
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3>Intereses</h3>
+            <div class="contenedor-intereses">
+              <div class="interes">
+                <i class="fa-solid fa-gamepad"></i>
+                <span>JUEGOS</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-headphones"></i>
+                <span>MUSICA</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-plane"></i>
+                <span>VIAJAR</span>
+              </div>
+              <div class="interes">
+                <i class="fa-brands fa-apple"></i>
+                <span>MAC OS</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-person-hiking"></i>
+                <span>DEPORTE</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-book"></i>
+                <span>LIBROS</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-car"></i>
+                <span>AUTOS</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-camera"></i>
+                <span>FOTOS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button>
+          <a
+            href="https://drive.google.com/uc?export=view&id=1Wo2b9IT6WfUMbeJ2P4VZdUVYOK55H-AA"
+            download="CurriculumJ.A.pdf"
+          >
+            Descargar CV
+            <span class="overlay"></span>
+            <i class="fa-solid fa-download"></i>
+          </a>
+        </button>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <div class="contenido-seccion">
+        <div class="slider-logo">
+          <div class="slide-track">
+            <div class="sl">
+              <iconify-icon icon="logos:android-icon"width="100" height="100"></iconify-icon>
+            </div>
+            <div class="sl">
+              <iconify-icon icon="skill-icons:wordpress"width="100" height="100"></iconify-icon>
+            </div>
+            <div class="sl">
+              <iconify-icon icon="skill-icons:html"width="100" height="100"></iconify-icon>
+            </div>
+            <div class="sl">
+              <iconify-icon icon="logos:raspberry-pi"width="100" height="100"></iconify-icon>
+            </div>
+            <div class="sl">
+              <iconify-icon icon="devicon:gimp"width="100" height="100"></iconify-icon>
+            </div>
+            <div class="sl">
+              <iconify-icon icon="devicon:linux"width="100" height="100"></iconify-icon>
+            </div>
+            <div class="sl">
+              <iconify-icon icon="devicon:php"width="100" height="100"></iconify-icon>
+            </div>
+            <div class="sl">
+              <iconify-icon icon="logos:apache"width="100" height="100"></iconify-icon>
+            </div>
+            <div class="sl">
+              <iconify-icon icon="devicon:canva"width="100" height="100"></iconify-icon>
+            </div>
+            <div class="sl">
+              <iconify-icon icon="devicon:css3"width="100" height="100"></iconify-icon>
+            </div>
+            <div class="sl">
+              <iconify-icon icon="devicon:firebase"width="100" height="100"></iconify-icon>
+            </div>
+            <div class="sl">
+              <iconify-icon icon="devicon:vscode"width="100" height="100"></iconify-icon>
+            </div>
+            <div class="sl">
+              <iconify-icon icon="logos:ubuntu"width="100" height="100"></iconify-icon>
+            </div>
+            <div class="sl">
+              <iconify-icon icon="logos:javascript"width="100" height="100"></iconify-icon>
+            </div>
+            <div class="sl">
+              <iconify-icon icon="logos:nodejs-icon"width="100" height="100"></iconify-icon>
+            </div>
+            <div class="sl">
+              <iconify-icon icon="logos:flutter"width="100" height="100"></iconify-icon>
+            </div>
+          </div>
+        </div>
+        <h2>Skills</h2>
+        <div class="fila">
+          <div class="col">
+            <h3>Technical Skills</h3>
+            <div class="skill">
+              <span>Javascript</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>65%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>HTML & CSS</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>87%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>PHP</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>70%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>GIMP</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>50%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Wordpress</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>53%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Flutter</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>40%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>SQL</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>60%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Professional Skills -->
+          
+          <div class="col">
+            <h3>Professional Skills</h3>
+            <div class="skill">
+              <span>Comunicación</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>97%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Trabajo en Equipo</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>70%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Creatividad</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>81%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Dedicación</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Proyect Management</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>68%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Habilidades Técnicas</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>94%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Adaptabilidad</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="curriculum" class="curriculum">
+      <div class="contenido-seccion">
+        <h2>Curriculum</h2>
+        <div class="fila">
+          <div class="col izquierda">
+            <h3>Educación</h3>
+            <div class="item izq">
+              <h4>Desarollo de Software | TIC</h4>
+              <span class="casa">Instituto Superior Tecnológico Tena</span>
+              <span class="fecha">27/10/2023</span>
+              <p align="justify">
+                El Instituto Superior Tecnológico Tena es una entidad de
+                educación superior comprometida con la excelencia académica,
+                Ubicada en la ciudad de Tena, Provincia de Napo, la cual ofrece
+                programas tecnológicos actualizadas.
+              </p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Aplicaciones Informática | De Servicos</h4>
+              <span class="casa">Unidad Educativa Nacional Tena</span>
+              <span class="fecha">26/07/2018</span>
+              <p align="justify">
+                La Unidad Educativa Nacional Tena es una institución pública y laica que educa 
+                de manera integral a niños y jóvenes con calidad y valores de inclusión. 
+                Mediante una gestión eficiente y profesores preparados, busca desarrollar el talento,
+                 habilidades y conciencia de los estudiantes para que puedan generar impactos positivos en la sociedad.
+              </p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col derecha">
+            <h3>Experiencia de trabajo</h3>
+            <div class="item der">
+              <h4>Pasante de TICS</h4>
+              <span class="casa">GAD Munipal de Archidona</span>
+              <span class="fecha">15/08/2022 - 09/09/2022 </span>
+
+              <ul align="justify">
+                <li>
+                  <a
+                    >Asistencia en la configuración, administración y seguridad
+                    de redes informáticas y sistemas de comunicación.</a
+                  >
+                </li>
+                <li>
+                  <a>Colaboración en proyectos de Desarrollo.</a>
+                </li>
+                <li>
+                  <a>Trabojo colaborativo con profesional de la tecnología.</a>
+                </li>
+                <li>
+                  <a>Mantenimiento de equipos informáticos.</a>
+                </li>
+                <li>
+                  <a
+                    >Gestion de inventeario de equipos y dispósitivos de TIC.</a
+                  >
+                </li>
+              </ul>
+
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Ayudante de Catedra</h4>
+              <span class="casa">Instituto Superior Tecnológico Tena</span>
+              <span class="fecha">10/08/2021 - 04/09/2021</span>
+              <ul align="justify">
+                <li>
+                  <a
+                    >Asistencia en la configuración, administración y seguridad
+                    de redes informáticas y sistemas de comunicación.</a
+                  >
+                </li>
+                <li>
+                  <a
+                    >Asistencia técnicas a estudinates del Instituto Superior
+                    Tecnologico Tena, facilitando un uso efectivo y efeiciente
+                    de las tecnologías.</a
+                  >
+                </li>
+                <li>
+                  <a>Trabojo colaborativo con profesional de la tecnología.</a>
+                </li>
+                <li>
+                  <a>Mantenimiento de equipos informáticos.</a>
+                </li>
+              </ul>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="portfolio" class="portfolio">
+      <div class="contenido-seccion">
+        <h2>PORTFOLIO</h2>
+        <div class="galeria">
+          <div class="proyecto">
+            <img src="img/web.png" alt="" />
+            <div class="overlay">
+              <h3>Cartelera Digital</h3>
+              <p>Wordpresss</p>
+              <p>Raspberry Pi</p>
+              <p>Apache</p>
+              <p>Foyer</p>
+              <p>Fully Kiosk Browser</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/Wedp.PNG" alt="" />
+            <div class="overlay">
+              <h3>Web Personal</h3>
+              <p>Javascript</p>
+              <p>Html</p>
+              <p>Css</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/mante.png" alt="" />
+            <div class="overlay">
+              <h3>Soporte TIC</h3>
+              <p>Mantenimento</p>
+              <p>Actualización</p>
+              <p>Configuración</p>
+            </div>
+          </div>
+        </div>
+        <h2>CERTIFICADOS</h2>
+        <div class="contenedor-slider">
+        <div class="slider">
+          <img src="https://lh3.googleusercontent.com/d/1fvnxAQere6CoqFptc7gAQEKOppWqgeHL"alt=""/>
+          <img src="https://lh3.googleusercontent.com/d/1z69wVi5y7V0iePAgTmlg7RZsKT7X8k3G"alt=""/>
+          <img src="https://lh3.googleusercontent.com/d/1I7To6QuiLXnBfzOtf0NJ4ItLIeTM_Dn-"alt=""/>
+          <img src="https://lh3.googleusercontent.com/d/1mfufAWATGZwEwtEeH_ktyb-uKP6KGNJy"alt=""/>
+          <img src="https://lh3.googleusercontent.com/d/191TWvUaYSLINNgU5v_ylPWSC9WXI5uoG"alt=""/>
+          <img src="https://lh3.googleusercontent.com/d/1HmtxH3bk6-rf1vXqlDuXPynpYqx0u-WE"alt=""/>
+          <img src="https://lh3.googleusercontent.com/d/1-HHZI20CXD_hdyA_37_y91Iy6VkVXB8m"alt=""/>
+        </div>
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+      </div>
+      </div>
+    </section>
+    <section id="contacto" class="contacto">
+      <div class="contenido-seccion">
+        <h2>CONTACTO</h2>
+        <div class="fila">
+         
+          <form action="php/correo.php" method="POST" class="formulario-contacto">
+          <div class="colum">
+            <input type="text" name="nombre" id="nombre" placeholder="Tú Nombre"  required/>
+            <input type="text" name="telefono" id="telefono" placeholder="Número telefónico" required/>
+            <input type="text" name="correo" id="correo" placeholder="Dirección de correo" required />
+            <input type="text" name="tema" id="tema" placeholder="Tema" required/>
+            <textarea
+              name="mensaje"
+              id="mensaje"
+              cols="30"
+              rows="10"
+              placeholder="Mensaje"></textarea>
+            <button type="submit" class="Enviar" value="Enviar" >
+              Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+              <span class="overlay"></span>
+            </button>
+          </div>
+        </form>
+          <div class="col">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15956.85497553671!2d-77.82517433787574!3d-0.99745237935083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d6a44047cf041d%3A0xff1b504985f2d31b!2sTena!5e0!3m2!1ses-419!2sec!4v1708208108351!5m2!1ses-419!2sec" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+      </a>
+      <div class="redes">
+        <a href="https://twitter.com/jimyjeferson" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://github.com/creaci" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=060292097" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://www.linkedin.com/in/jimy-alvarado-8aa139190/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://www.facebook.com/jimy.alvarado.50" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+      </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/f84e94fb02.js" crossorigin="anonymous"></script>
+    <script src="JS/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+  </body>
+</html>
